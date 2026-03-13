@@ -1,59 +1,36 @@
 # Student Management System
 
-A full-stack Student Management System built using Spring Boot and MySQL.
+Full-stack CRUD application built using Spring Boot and MySQL.
 
-## Features
-
+Features
 - Add Student
-- View Student List
 - Update Student
 - Delete Student
-- Pagination Support
-- Search Students
-- Input Validation
-- Exception Handling
-- Swagger API Documentation
+- Pagination API
+- REST architecture
 
-## Tech Stack
-
-Backend:
+Tech Stack
+- Java
 - Spring Boot
-- Spring Data JPA
-- REST APIs
-
-Database:
 - MySQL
-
-Frontend:
 - HTML
-- CSS
-- JavaScript
 - Bootstrap
+- JavaScript
 
-## Project Architecture
+API Endpoints
 
-Browser UI
-↓
-Controller
-↓
-Service
-↓
-Repository
-↓
-MySQL Database
+GET /students
+POST /students
+PUT /students/{id}
+DELETE /students/{id}
 
-## API Endpoints
+How to Run
 
-POST /students  
-GET /students/{id}  
-PUT /students/{id}  
-DELETE /students/{id}  
-GET /students/pagination?page=0&size=10
-
-## How to Run
-
-1. Start MySQL database
+1. Clone repo
 2. Run Spring Boot application
 3. Open browser
 
-http://localhost:8080
+http://localhost:8080/index.html
+
+Author
+Tejaswani
